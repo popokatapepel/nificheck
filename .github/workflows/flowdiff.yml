@@ -56,3 +56,4 @@ jobs:
         with:
           flowA: ${{ steps.files.outputs.flowA }}
           flowB: ${{ steps.files.outputs.flowB }}
+          checkstyle: true
